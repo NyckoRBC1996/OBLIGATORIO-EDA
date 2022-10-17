@@ -27,8 +27,8 @@ fila ultimoFila (fila f){
 fila dropFila (bd & bd, fila f){ //mal
 	// Elimina todos los elementos de una columna
 
-    	lista aux;
 	while(f != NULL){
+		lista aux;
 		aux = f;
 		f=f->sig;
 //		l = tail(l);  	Si estuviese desde el main
